@@ -16,10 +16,6 @@
  .hero h2 {
   padding: 88px 24px;
   margin: 0px;
-  font-family: "Montserrat";
-  color: var(--text-main) ;
-  font-weight: var(--text-weight);
-  font-size: 20px;
   text-align: center;
   line-height: 1.5;
 } 
@@ -39,7 +35,6 @@
 
    .hero h2 {
     padding: 88px 60px;
-    font-size: 32px;
   } 
 
 }
@@ -60,6 +55,5 @@
 
    .hero h2 {
     padding: 88px 120px;
-    font-size: var(--h2-size);
   } 
 }
