@@ -2,59 +2,47 @@ html {
   scroll-behavior: smooth;
 }
 
-.section-title {
+.about {
+  text-align: center;
+}
+
+.about .section-title {
   margin-top: 88px;
 }
 
-.about {
+.about .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 14px;
-  height: 200px;
-  width: 400px;
-  max-width: 100%;
-  margin-bottom: 30px;
+  padding: 10px;
 }
 
-.about .first {
-  background: url(../img/first.jpg) no-repeat;
-  background-size: cover;
+.about .grid-container .item-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
-.about .second {
-  background: url(../img/second.jpg) no-repeat;
-  background-size: cover;
+.about .grid-container .texto-largo {
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .about {
-    height: 300px;
-    width: 700px;
-    max-width: 100%;
+  .about .grid-container {
+    grid-template-columns: 1fr 1fr;
   }
 
-  h1 {
-    font-size: var(--h1-size);
+  .about .grid-container .texto-largo {
+    grid-column: 1 / -1;
+    text-align: center;
   }
-}
 
-@media screen and (min-width: 1024px) {
-  .about {
-    gap: 24px;
-    height: 400px;
-    width: 1200px;
-    max-width: 100%;
-  }
+
 }
 
 @media screen and (min-width: 1440px) {
-  .about {
-    height: 500px;
-    width: 1500px;
-    max-width: 100%;
-  }
-
-  h1 {
-    font-size: var(--h1-size);
+  .about .grid-container {
+    padding: 50px;
+    gap: 20px;
   }
 }
