@@ -64,25 +64,22 @@ button {
 }
 
 section {
-  width: 312px;
-  margin: 0 auto 88px;
+  width: auto;
+  margin: auto;
 }
 
 .section-title {
-    text-align: center;
-    color: var(--metal-dark);
+  text-align: center;
+  color: var(--metal-dark);
+  padding-top: 88px;
 }
 
-.section-title h1:hover{
-    color: var(--text-main);
-}
-
-.section-title hr{
-    height: 4px;
-    width: 180px;
-    background-color: var(--text-muted);
-    border: none;
-    margin: 3px auto 42px;
+.section-title hr {
+  height: 4px;
+  width: 180px;
+  background-color: var(--text-muted);
+  border: none;
+  margin: 3px auto 42px;
 }
 
 section.hero,
@@ -91,64 +88,45 @@ section.bottom-hero {
   margin: 0;
 }
 
-h1{
+h1 {
   font-family: "Montserrat";
 }
 
-h2{
-    font-family: "Montserrat";
-    font-size: var(--body2-size);
-    color: var(--text-main) ;
-    font-weight: var(--text-weight);
+h2 {
+  font-family: "Montserrat";
+  font-size: var(--body3-size);
+  color: var(--text-main);
+  font-weight: var(--text-weight);
 }
 
-h3{
-
-      font-family: "Montserrat";
-      text-align: center;
-    font-size: var(--body2-size);
-    color: var(--text-primary-color) ;
-    font-weight: var(--text-weight);
-        width: 312px;
-  margin: 0 auto 88px;
-      line-height: 1.5;
-
+h3 {
+  font-family: "Montserrat";
+  font-size: var(--body2-size);
+  color: var(--text-primary-color);
+  font-weight: var(--text-weight);
 }
 
 @media screen and (min-width: 768px) {
-    h2 {
+  h1{
+    font-size: var(--h1-size);
+  }
+  h2 {
     font-size: var(--h3-size);
-    text-align: start;
-  } 
-  h3{
-    width: 700px;
-    font-size: var(--h4-size) ;
+  }
+  h3 {
+    font-size: var(--h4-size);
   }
 }
 
-  @media screen and (min-width: 1024px) {
-   h2 {
+@media screen and (min-width: 1024px) {
+  .section-title h1:hover {
+    color: var(--text-main);
+  }
+
+  h2 {
     font-size: var(--h2-size);
-  } 
-    h3{
-    text-align:center;
-    width: 1000px;
-    font-size: var(--h3-size) ;
   }
-}
-
-@media screen and (min-width: 1440px) {
-      h3{
-    width: 1400px;
-  }
-  
-}
-
-  @media screen and (min-width: 2560px) {
-   h2 {
-    font-size: var(--h2-size);
-  } 
-    h3{
-    width: 2500px;
+  h3 {
+    font-size: var(--h3-size);
   }
 }
