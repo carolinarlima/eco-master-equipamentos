@@ -3,7 +3,8 @@ html {
 }
 
 .about {
-  text-align: center;
+  text-align: start;
+  margin: 24px;
 }
 
 .about .section-title {
