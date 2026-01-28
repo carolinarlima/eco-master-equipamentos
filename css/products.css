@@ -14,36 +14,37 @@ html {
 .products .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 14px;
-  padding: 10px;
+  gap: 20px;
+  padding: 15px;
 }
 
-.products .grid-container .item-img {
+.products .grid-container .card img {
   width: 100%;
-  height: auto;
+  display: block;
   border-radius: 8px;
 }
 
-.products .grid-container .text {
+.products .grid-container .card .text {
+  margin-top: 10px;
   text-align: center;
 }
 
-@media screen and (min-width: 1440px) {
-  .products .grid-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+@media screen and (min-width: 768px) {
+      .products .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
   }
-
-  .products .grid-container .text {
-    /* grid-column: 1 / -1; */
-    text-align: center;
-  }
-
 
 }
 
-@media screen and (min-width: 1440px) {
-  .products .grid-container {
-    padding: 50px;
-    gap: 20px;
+@media screen and (min-width: 1024px) {
+  .products .text-content {
+    margin: 24px;
+  }
+    .products .grid-container {
+    grid-template-columns: repeat(4, 1fr);  
   }
 }
+
