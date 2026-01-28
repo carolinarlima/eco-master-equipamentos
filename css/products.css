@@ -29,14 +29,22 @@ html {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+      .products .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+  }
+
+}
+
 @media screen and (min-width: 1024px) {
   .products .text-content {
     margin: 24px;
   }
-}
-@media screen and (min-width: 1440px) {
-  .products .grid-container {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    .products .grid-container {
+    grid-template-columns: repeat(4, 1fr);  
   }
 }
+
