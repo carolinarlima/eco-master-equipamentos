@@ -4,7 +4,6 @@ html {
 
 .about {
   text-align: start;
-  margin: 24px;
 }
 
 .about .section-title {
@@ -16,6 +15,7 @@ html {
   grid-template-columns: 1fr;
   gap: 14px;
   padding: 10px;
+  margin: 24px
 }
 
 .about .grid-container .item-img {
@@ -29,10 +29,12 @@ html {
 }
 
 .about .button {
+  width: 300px;
+  height: 66px;
   display: block;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  line-height: 66px;
+  border-radius: 36px;
+  margin: 40px auto;
   text-align: center;
   font-size: var(--body2-size);
   font-weight: var(--title-weight);
@@ -40,11 +42,7 @@ html {
   text-decoration: none;
   color: var(--metal-light);
   background-color: var(--secundary-color);
-  border: 1px solid transparent;
-  border-radius: 100px;
-  width: auto;
   cursor: pointer;
-  padding: 12px 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -56,18 +54,9 @@ html {
     grid-column: 1 / -1;
     text-align: center;
   }
-
-  .about .button {
-    margin: 0 200px;
-   padding: 14px 24px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
-    .about .button {
-    margin: 0 400px;
-  }
-
   .about .button:hover {
     background-color: var(--tertiary-color);
     color: var(--text-secundary-color);
@@ -75,19 +64,8 @@ html {
 }
 
 @media screen and (min-width: 1440px) {
-  .about .button {
-    font-size: var(--h4-size);
-    margin: 0 500px;
-  }
-
   .about .grid-container {
     padding: 50px;
     gap: 20px;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  .about .button{
-    margin: 0 1000px;
   }
 }

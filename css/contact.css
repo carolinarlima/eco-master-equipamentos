@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.contact {
+  display: grid;
+  padding: 24px;
+  margin: 0px;
+  background-color: var(--background-tertiary-color);
+}
+
+.contact .contact-info h3 {
+  color: var(--text-muted);
+  font-weight: var(--title-weight);
+  text-align: start;
+}
+
+.contact .contact-info h4 {
+  color: var(--text-primary-color);
+  margin-top: 5px;
+  text-align: start;
+}
+
+.contact .container .contact-info .info-item {
+  border-left: 3px solid var(--secundary-color);
+  padding-left: 15px;
+}
+
+.contact .container .contact-info .info-item .btn-whatsapp {
+  display: block;
+  width: 240px;
+  height: 60px;
+  font-family: "Inter";
+  font-weight: var(--title-weight);
+  color: var(--metal-light);
+  background-color: #25d366;
+  cursor: pointer;
+  line-height: 60px;
+  border-radius: 36px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact .map-container .map {
+  width: 290px;
+  overflow: hidden;
+  height: 300px;
+  border: 0px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact .map-container .map {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    margin: 0px;
+    padding: 24px;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact .section-title {
+    grid-column: span 2;
+    margin: 0px;
+  }
+
+  .contact .map-container
+  {
+    text-align: center;
+  }
+
+  .contact .map-container .map {
+    width: 600px;
+    height: 600px;
+  }
+
+  .contact .container .contact-info .info-item .btn-whatsapp {
+    margin: 0;
+  }
+  .contact .container .contact-info .info-item .btn-whatsapp:hover{
+  background-color: #1a9246;
+  color: var(--text-secundary-color);
+  }
+}
+
+@media screen and (min-width: 2560px) {
+   .contact
+  {
+    padding: 100px;
+  }
+}
