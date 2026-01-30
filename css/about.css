@@ -2,10 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.about {
-  text-align: start;
-}
-
 .about .section-title {
   margin-top: 88px;
 }
@@ -14,7 +10,6 @@ html {
   display: grid;
   grid-template-columns: 1fr;
   gap: 14px;
-  padding: 10px;
   margin: 24px;
 }
 
@@ -26,6 +21,8 @@ html {
 
 .about .grid-container .texto-largo {
   text-align: center;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .about .button {
@@ -34,13 +31,13 @@ html {
   display: block;
   line-height: 66px;
   border-radius: 36px;
-  margin: 40px auto;
+  margin: auto;
   text-align: center;
-  font-size: var(--body2-size);
+  font-size: var(--body1-size);
   font-weight: var(--title-weight);
   font-family: "Inter";
   text-decoration: none;
-  color: var(--metal-light);
+  color: var(--primary-color);
   background-color: var(--secundary-color);
   cursor: pointer;
 }
@@ -52,7 +49,6 @@ html {
 
   .about .grid-container .texto-largo {
     grid-column: 1 / -1;
-    text-align: center;
   }
 }
 

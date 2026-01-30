@@ -75,6 +75,10 @@ nav {
     width: 467px;
   }
 
+  .navigation-menu ul a {
+    transition: 0.3s;
+  }
+
   .navigation-menu li {
     margin: 0;
   }
