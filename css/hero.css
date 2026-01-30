@@ -1,5 +1,5 @@
 .hero .hero-img,
-.hero-footer .hero-img{ 
+.hero-footer .hero-img {
   width: 100%;
   height: 400px;
 }
@@ -12,14 +12,14 @@
 .hero-footer .hero-img {
   background: url(../img/hero-footer-mobile.jpg) no-repeat;
   background-size: cover;
-} 
+}
 
- .hero h2 {
+.hero h2 {
   padding: 88px 24px;
   margin: 0px;
   text-align: center;
   line-height: 1.5;
-} 
+}
 
 @media screen and (min-width: 768px) /* Tablet */ {
   .hero .hero-img {
@@ -32,12 +32,11 @@
     height: 400px;
     background: url(../img/hero-footer-tablet.jpg) no-repeat;
     background-size: cover;
-  } 
+  }
 
-   .hero h2 {
+  .hero h2 {
     padding: 88px 60px;
-  } 
-
+  }
 }
 
 @media screen and (min-width: 1440px) /* Desktop*/ {
@@ -47,14 +46,13 @@
     margin-bottom: 104px;
   }
 
-   .hero-footer .hero-img {
+  .hero-footer .hero-img {
     height: 600px;
     background: url(../img/hero-footer-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
-
-   .hero h2 {
+  .hero h2 {
     padding: 88px 120px;
-  } 
+  }
 }

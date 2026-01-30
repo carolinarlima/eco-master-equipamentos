@@ -69,8 +69,7 @@ html {
     margin: 0px;
   }
 
-  .contact .map-container
-  {
+  .contact .map-container {
     text-align: center;
   }
 
@@ -82,15 +81,14 @@ html {
   .contact .container .contact-info .info-item .btn-whatsapp {
     margin: 0;
   }
-  .contact .container .contact-info .info-item .btn-whatsapp:hover{
-  background-color: #1a9246;
-  color: var(--text-secundary-color);
+  .contact .container .contact-info .info-item .btn-whatsapp:hover {
+    background-color: #1a9246;
+    color: var(--text-secundary-color);
   }
 }
 
 @media screen and (min-width: 2560px) {
-   .contact
-  {
+  .contact {
     padding: 100px;
   }
 }
