@@ -30,25 +30,23 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-      .products .grid-container {
+  .products .grid-container {
     grid-template-columns: repeat(2, 1fr);
     margin: 0px;
     padding: 0px;
     gap: 0px;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
-  .products{
+  .products {
     margin: 0px;
   }
   .products .text-content {
     margin: 24px;
   }
-    .products .grid-container {
-    grid-template-columns: repeat(4, 1fr);  
+  .products .grid-container {
+    grid-template-columns: repeat(4, 1fr);
     padding: -24px;
   }
 }
-
