@@ -27,8 +27,8 @@ O site da **Eco Master Equipamentos** foi desenvolvido para apresentar de forma 
 ## 🎨 Preview
 
 Visualize o projeto ao vivo:
-[**🔗 Acessar Eco Master Equipamentos**](https://carolinarlima.github.io/eco-master-equipamentos/)
-[**🔗 Acessar Eco Master Equipamentos pelo Vercel](https://eco-master-equipamentos.vercel.app/)
+[**🔗 Acessar Eco Master Equipamentos**](https://carolinarlima.github.io/eco-master-equipamentos/)<br>
+[**🔗 Acessar Eco Master Equipamentos pelo Vercel**](https://eco-master-equipamentos.vercel.app/)
 
 ---
 
