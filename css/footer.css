@@ -53,6 +53,10 @@ html {
   padding-left: 5px;
 }
 
+.main-footer .footer-container .footer-col .text-large {
+  padding: 24px;
+}
+
 .footer-bottom {
   margin-top: 40px;
   padding-top: 20px;
@@ -68,7 +72,7 @@ html {
 
 .footer-bottom .footer-container a {
   text-decoration: none;
-  color: #ac44ff;
+  color: var(--text-secundary-color);
 }
 
 @media screen and (min-width: 765px) {

@@ -14,9 +14,8 @@
   background-size: cover;
 }
 
-.hero h2 {
-  padding: 88px 24px;
-  margin: 0px;
+.hero h1 {
+  padding: 40px 24px 0px 24px;
   text-align: center;
   line-height: 1.5;
 }
