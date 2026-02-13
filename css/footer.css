@@ -29,8 +29,10 @@ html {
 }
 
 .main-footer .footer-container .footer-col p {
-  font-size: var(--body1-size);
+  font-size: 14px;
   font-weight: var (--text-weight);
+  line-height: 1.5;
+  font-family: "Montserrat";
 }
 
 .main-footer .footer-container .footer-col ul {
@@ -75,9 +77,12 @@ html {
   color: var(--text-secundary-color);
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 768px) {
+  .main-footer .footer-container .footer-col p {
+    font-size: var(--bady1-size);
+  }
   .main-footer .footer-container .footer-col .text-large {
-    padding: 20px 100px;
+    padding: 20px 80px;
   }
 }
 
@@ -88,7 +93,7 @@ html {
   }
 
   .main-footer .footer-container .footer-col .text-large {
-    padding: 12px 30px;
+    padding: 10px;
     text-align: center;
   }
 
@@ -97,7 +102,7 @@ html {
   }
 
   .main-footer .footer-container .footer-col p {
-    font-size: var(--body2-size);
+    font-size: var(--body1-size);
     padding: auto;
   }
 

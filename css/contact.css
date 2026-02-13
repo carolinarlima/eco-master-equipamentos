@@ -13,6 +13,7 @@ html {
   color: var(--primary-color);
   font-weight: var(--title-weight);
   text-align: start;
+  line-height: 1.5;
 }
 
 .contact .contact-info h4 {
@@ -84,6 +85,13 @@ html {
   .contact .container .contact-info .info-item .btn-whatsapp:hover {
     background-color: #1a9246;
     color: var(--text-secundary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contact .map-container .map {
+    width: 700px;
+    height: 700px;
   }
 }
 

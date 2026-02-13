@@ -15,7 +15,7 @@
 }
 
 .hero h1 {
-  padding: 40px 24px 0px 24px;
+  padding: 0 12px;
   text-align: center;
   line-height: 1.5;
 }
@@ -32,17 +32,13 @@
     background: url(../img/hero-footer-tablet.jpg) no-repeat;
     background-size: cover;
   }
-
-  .hero h2 {
-    padding: 88px 60px;
-  }
 }
 
-@media screen and (min-width: 1440px) /* Desktop*/ {
+@media screen and (min-width: 1024px) /* Desktop*/ {
   .hero .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
-    margin-bottom: 104px;
+    text-align: center;
   }
 
   .hero-footer .hero-img {
@@ -51,7 +47,19 @@
     background-size: cover;
   }
 
+  .hero h1 {
+    padding-top: 88px;
+  }
+
   .hero h2 {
     padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) /* Desktop*/ {
+  .hero .hero-img {
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
   }
 }
