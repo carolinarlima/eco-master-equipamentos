@@ -9,6 +9,7 @@ html {
 .products .text-content h3 {
   text-align: center;
   margin-bottom: 80px;
+  margin: 24px 10px 80px 10px;
 }
 
 .products .grid-container {
