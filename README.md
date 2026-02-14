@@ -1,15 +1,17 @@
-# 🏗️ Eco Master Equipamentos: Soluções em Movimentação de Carga
+# 🏗️ Eco Master Equipamentos: Soluções Industriais
 
 > **Status do Projeto:** Concluído ✅
+> **Deploy:** [Vercel](https://eco-master-equipamentos.vercel.app/)
 
-O site da **Eco Master Equipamentos** foi desenvolvido para apresentar de forma profissional e intuitiva o catálogo de equipamentos para transporte e elevação de cargas. O foco principal do projeto foi unir uma interface moderna (UI Design) com uma estrutura de navegação eficiente, garantindo que o cliente encontre a solução técnica ideal para sua necessidade.
+O site da **Eco Master Equipamentos** é uma plataforma profissional desenvolvida para uma empresa especializada no desenvolvimento e fabricação de implementos rodoviários e soluções para gestão de resíduos e serviços urbanos. O projeto foca em transmitir credibilidade e robustez através de um **UI Design** limpo e uma experiência de utilizador (UX) focada na conversão e clareza técnica.
 
 ---
 
-## 🛠 Tecnologias e Design
+## 🛠 Tecnologias e Ferramentas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![UI Design](https://img.shields.io/badge/UI%20Design-Custom-8A2BE2?style=for-the-badge)
 ![Mobile First](https://img.shields.io/badge/Mobile--First-0078D4?style=for-the-badge)
 
@@ -17,26 +19,27 @@ O site da **Eco Master Equipamentos** foi desenvolvido para apresentar de forma 
 
 ## 🚀 Diferenciais do Projeto
 
-* **Foco em UI/UX:** Interface limpa e objetiva, projetada para transmitir a robustez e confiança que o setor industrial exige.
-* **Catálogo Estruturado:** Organização visual dos produtos (paleteiras, empilhadeiras, mesas elevadoras) facilitando a leitura técnica.
-* **Responsividade:** Layout totalmente adaptável para dispositivos móveis, permitindo que orçamentos e consultas sejam feitos de qualquer lugar.
-* **Identidade Visual:** Aplicação consistente de cores e tipografia que reforçam a marca Eco Master.
+* **Arquitetura de Componentes:** Estilização modular para fácil manutenção e escalabilidade do catálogo de produtos.
+* **Foco em UI/UX:** Interface projetada para o setor industrial, garantindo que informações técnicas sejam fáceis de encontrar e ler.
+* **Otimização para Conversão:** Botões de Chamada para Ação (CTA) posicionados estrategicamente para facilitar o contacto comercial.
+* **Responsividade Total:** Site optimizado para dispositivos móveis, tablets e desktop, garantindo acessibilidade em qualquer lugar.
+* **Performance:** Deploy realizado na Vercel para garantir tempos de carregamento rápidos e alta disponibilidade.
 
 ---
 
 ## 🎨 Preview
 
-Visualize o projeto ao vivo:
-[**🔗 Acessar Eco Master Equipamentos**](https://eco-master-equipamentos.vercel.app/)
+Confira o projeto online:
+[**🔗 Aceder ao site Eco Master**](https://eco-master-equipamentos.vercel.app/)
 
 ---
 
-## 🧠 Desafios e Aprendizados
+## 🧠 Aprendizados Técnicos
 
-Neste projeto, apliquei meus conhecimentos em:
-1.  **Arquitetura de Informação:** Como organizar um catálogo técnico para que não seja cansativo para o usuário.
-2.  **Componentização CSS:** Criação de componentes reutilizáveis para os cartões de produtos e botões de chamada para ação (CTA).
-3.  **SEO Industrial:** Estruturação semântica para que os equipamentos sejam facilmente encontrados por motores de busca.
+Neste desenvolvimento, consolidei competências fundamentais como:
+1. **Hierarquia Visual:** Aplicação de pesos e cores para guiar o olhar do utilizador através do catálogo de equipamentos.
+2. **Boas Práticas de SEO e Acessibilidade:** Estruturação semântica para melhorar o posicionamento orgânico de produtos industriais e acessibilidade.
+3. **Deploy Contínuo:** Configuração e gestão do projeto em ambiente de produção via Vercel.
 
 ---
 
