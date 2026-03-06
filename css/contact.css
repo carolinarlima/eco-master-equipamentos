@@ -33,13 +33,14 @@ html {
   height: 60px;
   font-family: "Inter";
   font-weight: var(--title-weight);
-  color: var(--primary-color);
-  background-color: #25d366;
+  color: var(--text-primary-color);
+  background-color: var(--secundary-color);
   cursor: pointer;
   line-height: 60px;
   border-radius: 36px;
   text-align: center;
   text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 .contact .map-container .map {
@@ -83,7 +84,7 @@ html {
     margin: 0;
   }
   .contact .container .contact-info .info-item .btn-whatsapp:hover {
-    background-color: #1a9246;
+    background-color: var(--tertiary-color);
     color: var(--text-secundary-color);
   }
 }

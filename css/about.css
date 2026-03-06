@@ -83,10 +83,11 @@ html {
   font-weight: var(--title-weight);
   font-family: "Inter";
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--text-primary-color);
   background-color: var(--secundary-color);
   cursor: pointer;
   margin-bottom: 88px;
+  transition: background-color 0.3s ease;
 }
 
 @media screen and (min-width: 768px) {

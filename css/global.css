@@ -15,15 +15,15 @@
 :root {
   /*Cores*/
   --primary-color: #0d1b2a;
-  --secundary-color: #f4a261; /*btn*/
-  --tertiary-color: #e76f51; /*hover*/
+  --secundary-color: #79B933; /*btn*/
+  --tertiary-color: #4D7B1F; /*hover*/
 
   /*Cores dp Texto*/
   --text-primary-color: #222222;
   --text-secundary-color: #ffffff;
   --text-main: #1b263b;
   --text-muted: #778da9;
-  --metal-dark: #415a77; /*Estruturas*/
+  --metal-dark: #00548B; /*Estruturas*/
   --metal-light: #e0e1dd; /*Fundo de Sessões*/
 
   /*Cor do Background*/
@@ -37,11 +37,12 @@
   --menu-text-weight: 500;
 
   /*Tamanho da Fonte*/
-  --h1-size: 38px;
-  --h2-size: 36px;
+  --h1-size: 36px;
+  --h2-size: 32px;
   --h3-size: 30px;
   --h4-size: 28px;
-  --h5-size: 16px --body1-size: 18px;
+  --h5-size: 16px
+  --body1-size: 18px;
   --body2-size: 22px;
   --body3-size: 24px;
   --subtitle: 14px;
@@ -67,6 +68,12 @@ a:focus,
 button:focus {
   outline: 3px solid var(--accent-safety);
   outline-offset: 4px;
+}
+
+a:active,
+li:active,
+button:active {
+  transform: scale(0.91);
 }
 
 .section-title h2 {
@@ -147,6 +154,8 @@ span {
 
   .section-title h2:hover {
     color: var(--text-main);
+    text-decoration: underline 3px var(--secundary-color);
+    text-underline-offset: 8px;
   }
 
   h2 {
