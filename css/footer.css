@@ -53,6 +53,8 @@ html {
 .main-footer .footer-container .footer-col ul li a:hover {
   color: var(--tertiary-color);
   padding-left: 5px;
+  text-decoration: underline 2px var(--tertiary-color);
+  text-underline-offset: 4px;
 }
 
 .main-footer .footer-container .footer-col .text-large {
