@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 .products {
-    margin-top: 88px;
-    margin-bottom: 88px;
+  margin-top: 88px;
+  margin-bottom: 88px;
 }
 
 .products .text-content h3 {
