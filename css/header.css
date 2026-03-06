@@ -6,6 +6,7 @@
   align-items: flex-start;
   padding: 38px 48px;
   position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
 }
 
 .main-header .list-links li a {
@@ -104,6 +105,7 @@ nav {
 
   .navigation-menu li a:hover {
     color: var(--tertiary-color);
+    padding-left: 3px;
   }
 }
 

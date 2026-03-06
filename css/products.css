@@ -1,9 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-
-.products .section-title {
-  margin-top: 88px;
+.products {
+    margin-top: 88px;
+    margin-bottom: 88px;
 }
 
 .products .text-content h3 {
