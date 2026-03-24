@@ -5,12 +5,12 @@
 }
 
 .hero .hero-img {
-  background: url(../img/hero-mobile.jpg) no-repeat;
+  background: url(../img/hero-mobile.webp) no-repeat;
   background-size: cover;
 }
 
 .hero-footer .hero-img {
-  background: url(../img/hero-footer-mobile.jpg) no-repeat;
+  background: url(../img/hero-footer-mobile.webp) no-repeat;
   background-size: cover;
 }
 
@@ -23,27 +23,27 @@
 @media screen and (min-width: 768px) /* Tablet */ {
   .hero .hero-img {
     height: 620px;
-    background: url(../img/hero-tablet.jpg) no-repeat;
+    background: url(../img/hero-tablet.webp) no-repeat;
     background-size: cover;
   }
 
   .hero-footer .hero-img {
     height: 400px;
-    background: url(../img/hero-footer-tablet.jpg) no-repeat;
+    background: url(../img/hero-footer-tablet.webp) no-repeat;
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1024px) /* Desktop*/ {
   .hero .hero-img {
-    background: url(../img/hero-desktop.jpg) no-repeat;
+    background: url(../img/hero-desktop.webp) no-repeat;
     background-size: cover;
     text-align: center;
   }
 
   .hero-footer .hero-img {
     height: 600px;
-    background: url(../img/hero-footer-desktop.jpg) no-repeat;
+    background: url(../img/hero-footer-desktop.webp) no-repeat;
     background-size: cover;
   }
 
@@ -58,7 +58,7 @@
 
 @media screen and (min-width: 1440px) /* Desktop*/ {
   .hero .hero-img {
-    background: url(../img/hero-desktop.jpg) no-repeat;
+    background: url(../img/hero-desktop.webp) no-repeat;
     background-size: cover;
     text-align: center;
   }
