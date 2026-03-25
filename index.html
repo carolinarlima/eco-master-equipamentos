@@ -6,7 +6,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="css/styles.css" defer />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="preload"
+      href="../fonts/Inter-VariableFont_opsz\,wght.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="css/styles.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript><link rel="stylesheet" href="css/styles.css" /></noscript>
     <link rel="canonical" href="https://www.ecomasterequipamentos.com.br/" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <title>
@@ -39,12 +59,12 @@
     />
     <meta
       property="og:image"
-      content="https://ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpeg"
+      content="https://ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpg"
     />
 
     <meta
       property="twitter:card"
-      content="https://ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpeg"
+      content="https://ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpg"
     />
     <meta
       property="twitter:title"
@@ -54,12 +74,12 @@
       property="twitter:description"
       content="Soluções personalizadas em compactadores de resíduos e caçambas com suporte técnico especializado."
     />
-    <script type="application/ld+json" defer>
+    <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Eco Master Equipamentos",
-        "image": "https://www.ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpeg",
+        "image": "https://www.ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpg",
         "@id": "https://www.ecomasterequipamentos.com.br/",
         "url": "https://www.ecomasterequipamentos.com.br/",
         "telephone": "+55-35-99857-8107",
@@ -146,25 +166,16 @@
           <h2 id="about">Sobre Nós</h2>
         </div>
         <div class="grid-container">
-          <img
-            src="img/cacamba-basculante-implemento-rodoviario.jpeg"
-            alt="Caminhão basculante com caçamba de carga aberta verde da Eco Master Equipamentos em uma rua da cidade."
-            class="item-img"
-          />
-          <img
-            src="img/sistema-poliguindaste-articulado-eco-master.jpeg"
-            alt="Caminhão poliguindaste da Eco Master Equipamentos transportando uma caçamba estacionária amarela em uma avenida."
-            class="item-img"
-          />
-          <h3 class="texto-largo">
-            Atuamos com foco em eficiência operacional, robustez, segurança e
-            responsabilidade ambiental, atendendo clientes públicos e privados
-            em todo o Brasil. Com uma equipe técnica experiente e processos
-            produtivos consolidados, a Eco Master entrega equipamentos
-            confiáveis, projetados para operar nas condições mais exigentes do
-            dia a dia.
-          </h3>
+          <figure class="basculante"></figure>
+          <figure class="poliguindaste"></figure>
         </div>
+        <h3 class="texto-largo">
+          Atuamos com foco em eficiência operacional, robustez, segurança e
+          responsabilidade ambiental, atendendo clientes públicos e privados em
+          todo o Brasil. Com uma equipe técnica experiente e processos
+          produtivos consolidados, a Eco Master entrega equipamentos confiáveis,
+          projetados para operar nas condições mais exigentes do dia a dia.
+        </h3>
 
         <a href="#contact" class="button">Entre em Contato</a>
 
@@ -302,7 +313,7 @@
         <div class="grid-container">
           <figure class="card">
             <img
-              src="img/compactador-residuos-estacionario-eco-master.jpeg"
+              src="img/compactador-residuos-estacionario-eco-master.jpg"
               alt="Equipamento compactador de resíduos estacionário industrial da Eco Master Equipamentos, de cor verde, instalado em base de concreto."
               class="item-img"
               loading="lazy"
@@ -332,7 +343,7 @@
 
           <figure class="card">
             <img
-              src="img/caminhao-lixo-coletor-compactador-urbano.jpeg"
+              src="img/caminhao-lixo-coletor-compactador-urbano.jpg"
               alt="Caminhão coletor compactador de lixo branco com implemento Eco Master em operação de coleta urbana."
               class="item-img"
               loading="lazy"
@@ -360,7 +371,7 @@
 
           <figure class="card">
             <img
-              src="img/cacamba-basculante-implemento-rodoviario.jpeg"
+              src="img/cacamba-basculante-implemento-rodoviario.jpg"
               alt="Caminhão basculante com caçamba de carga aberta verde da Eco Master Equipamentos em uma rua da cidade."
               class="item-img"
               loading="lazy"
@@ -386,7 +397,7 @@
 
           <figure class="card">
             <img
-              src="img/sistema-poliguindaste-articulado-eco-master.jpeg"
+              src="img/sistema-poliguindaste-articulado-eco-master.jpg"
               alt="Caminhão poliguindaste da Eco Master Equipamentos transportando uma caçamba estacionária amarela em uma avenida."
               class="item-img"
               loading="lazy"
@@ -412,7 +423,7 @@
 
           <figure class="card">
             <img
-              src="img/equipamento-roll-on-roll-off-master-25t.jpeg"
+              src="img/equipamento-roll-on-roll-off-master-25t.jpg"
               alt="Caminhão truck equipado com o sistema roll-on roll-off Master 25T da Eco Master, mostrando o braço hidráulico e chassi reforçado."
               class="item-img"
               loading="lazy"
@@ -449,7 +460,7 @@
 
           <figure class="card">
             <img
-              src="img/coletor-residuos-hospitalares-estanque-eco-master.jpeg"
+              src="img/coletor-residuos-hospitalares-estanque-eco-master.jpg"
               alt="Caminhão tanque coletor de resíduos hospitalares Eco Master, com reservatório cilíndrico branco e sistema de sucção."
               class="item-img"
               loading="lazy"

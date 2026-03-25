@@ -2,118 +2,94 @@
   margin-top: 88px;
   margin-bottom: 88px;
 }
-
 .products .text-content h3 {
   text-align: center;
   margin-bottom: 80px;
 }
-
 .products .grid-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
   padding: 0 24px;
 }
-
 .products .grid-container .card {
   background-color: var(--text-secundary-color);
   border: 1px solid var(--metal-light);
   border-top: 4px solid var(--primary-color);
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+    transform 0.3s,
+    box-shadow 0.3s;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
   padding: 12px;
   margin: 0;
 }
-
 .products .grid-container .card img {
   display: block;
   border-radius: 8px;
   width: 100%;
-  aspect-ratio: 5 / 3; 
-  object-fit: cover;  
+  aspect-ratio: 5/3;
+  object-fit: cover;
   background-color: #f0f0f0;
 }
-
 .products .grid-container .card span {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 1.2rem;
   color: var(--primary-color);
   text-transform: uppercase;
 }
-
+.products .grid-container .card h4,
 .products .grid-container .card h5,
-.products .grid-container .card h4 {
+.products .grid-container .card li {
   text-align: start;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   color: var(--text-primary-color);
-  font-size: 0.95rem;
   line-height: 1.6;
+}
+.products .grid-container .card h4,
+.products .grid-container .card h5 {
+  font-size: 0.95rem;
   padding: 0 24px;
   margin-bottom: 0;
 }
-
-.products .grid-container .card li {
-  text-align: start;
-  font-family: "Inter", sans-serif;
-  color: var(--text-primary-color);
-  line-height: 1.6;
-}
-
 @media screen and (min-width: 768px) {
   .products .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .products .text {
+  .products text-content {
     text-align: start;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .products .grid-container .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(13, 27, 42, 0.1);
     border-top-color: var(--secundary-color);
   }
-
   .products .text-content {
     margin: 24px;
   }
-
   .products .grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 @media screen and (min-width: 1440px) {
   .products .grid-container .card span {
     font-size: var(--h4-size);
   }
-
+  .products .grid-container .card h4,
   .products .grid-container .card h5,
-  .products .grid-container .card h4 {
-    font-size: var(--body3-size);
-  }
-
   .products .grid-container .card li {
     font-size: var(--body3-size);
   }
 }
-
 @media screen and (min-width: 2560px) {
   .products .grid-container .card span {
     font-size: var(--h3-size);
   }
-
+  .products .grid-container .card h4,
   .products .grid-container .card h5,
-  .products .grid-container .card h4 {
-    font-size: var(--h4-size);
-  }
-
   .products .grid-container .card li {
     font-size: var(--h4-size);
   }
