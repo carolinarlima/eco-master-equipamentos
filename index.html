@@ -6,33 +6,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/global.css" />
     <link
       rel="preload"
-      href="../fonts/Inter-VariableFont_opsz\,wght.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
+      as="image"
+      href="img/hero-mobile.jpg"
+      fetchpriority="high"
     />
-    <link
-      rel="preload"
-      href="css/styles.css"
-      as="style"
-      onload="
-        this.onload = null;
-        this.rel = 'stylesheet';
-      "
-    />
-    <noscript><link rel="stylesheet" href="css/styles.css" /></noscript>
     <link rel="canonical" href="https://www.ecomasterequipamentos.com.br/" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <title>
-      Eco Master Equipamentos | Implementos Rodoviários, Gestão de Resíduos e
-      Serviços Urbanos
-    </title>
+    <title>Eco Master | Implementos Rodoviários e Gestão de Resíduos</title>
     <meta
       name="description"
       content="Especialista em fabricação de implementos rodoviários: coletores compactadores, caçambas basculantes e sistemas roll-on roll-off. Soluções robustas para gestão de resíduos em todo o Brasil."
@@ -59,12 +43,12 @@
     />
     <meta
       property="og:image"
-      content="https://ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpg"
+      content="https://www.ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpeg"
     />
 
     <meta
       property="twitter:card"
-      content="https://ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpg"
+      content="https://www.ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpeg"
     />
     <meta
       property="twitter:title"
@@ -79,7 +63,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Eco Master Equipamentos",
-        "image": "https://www.ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpg",
+        "image": "https://www.ecomasterequipamentos.com.br/img/cacamba-basculante-implemento-rodoviario.jpeg",
         "@id": "https://www.ecomasterequipamentos.com.br/",
         "url": "https://www.ecomasterequipamentos.com.br/",
         "telephone": "+55-35-99857-8107",
@@ -88,7 +72,7 @@
           "streetAddress": "Rua Lino Chede, 54 A, Bairro Ponte Alta",
           "addressLocality": "Extrema",
           "addressRegion": "MG",
-          "postalCode": "37640-000",
+          "postalCode": "37642-492",
           "addressCountry": "BR"
         },
         "geo": {
@@ -113,17 +97,21 @@
           <img
             class="img-mobile"
             src="img/logo.svg"
-            alt="Logo Eco Master Equipamentos - Fabricação de Implementos. Ícone de engrenagem azul com uma folha verde."
+            alt="Logo Eco Master Equipamentos - Fabricação de Implementos."
+            width="67px"
+            height="63px"
           />
           <img
             class="img-desktop"
-            src="img/logo-eco-master-equipamentos-extrema-mg.png"
-            alt="Logo Eco Master Equipamentos - Fabricação de Implementos. Ícone de engrenagem azul com uma folha verde."
+            src="img/logo-eco-master.png"
+            alt="Logo Eco Master Equipamentos - Fabricação de Implementos."
+            width="210px"
+            height="56px"
           />
         </a>
         <div class="navigation-menu">
           <label for="menu">
-            <img src="img/menu.svg" alt="menu" />
+            <img src="img/menu.png" alt="menu" />
           </label>
           <input
             type="checkbox"
@@ -166,16 +154,29 @@
           <h2 id="about">Sobre Nós</h2>
         </div>
         <div class="grid-container">
-          <figure class="basculante"></figure>
-          <figure class="poliguindaste"></figure>
+          <img
+            src="img/cacamba-basculante-implemento-rodoviario.jpeg"
+            alt="Caminhão basculante com caçamba de carga aberta verde da Eco Master Equipamentos em uma rua da cidade."
+            class="item-img"
+            width="364"
+            height="243"
+          />
+          <img
+            src="img/sistema-poliguindaste-articulado-eco-master.jpeg"
+            alt="Caminhão poliguindaste da Eco Master Equipamentos transportando uma caçamba estacionária amarela em uma avenida."
+            class="item-img"
+            width="364"
+            height="243"
+          />
+          <h3 class="texto-largo">
+            Atuamos com foco em eficiência operacional, robustez, segurança e
+            responsabilidade ambiental, atendendo clientes públicos e privados
+            em todo o Brasil. Com uma equipe técnica experiente e processos
+            produtivos consolidados, a Eco Master entrega equipamentos
+            confiáveis, projetados para operar nas condições mais exigentes do
+            dia a dia.
+          </h3>
         </div>
-        <h3 class="texto-largo">
-          Atuamos com foco em eficiência operacional, robustez, segurança e
-          responsabilidade ambiental, atendendo clientes públicos e privados em
-          todo o Brasil. Com uma equipe técnica experiente e processos
-          produtivos consolidados, a Eco Master entrega equipamentos confiáveis,
-          projetados para operar nas condições mais exigentes do dia a dia.
-        </h3>
 
         <a href="#contact" class="button">Entre em Contato</a>
 
@@ -313,10 +314,11 @@
         <div class="grid-container">
           <figure class="card">
             <img
-              src="img/compactador-residuos-estacionario-eco-master.jpg"
-              alt="Equipamento compactador de resíduos estacionário industrial da Eco Master Equipamentos, de cor verde, instalado em base de concreto."
+              src="img/compactador-residuos-estacionario-eco-master.jpeg"
+              alt="Equipamento compactador de resíduos estacionário industrial da Eco Master, de cor verde, instalado em base de concreto."
               class="item-img"
-              loading="lazy"
+              width="364"
+              height="243"
             />
             <h4><span>Compactador de Resíduos Estacionário:</span></h4>
             <h5>
@@ -343,10 +345,11 @@
 
           <figure class="card">
             <img
-              src="img/caminhao-lixo-coletor-compactador-urbano.jpg"
+              src="img/caminhao-lixo-coletor-compactador-urbano.jpeg"
               alt="Caminhão coletor compactador de lixo branco com implemento Eco Master em operação de coleta urbana."
               class="item-img"
-              loading="lazy"
+              width="364"
+              height="243"
             />
             <h4><span>Caminhão Coletor Compactador de Resíduos</span></h4>
             <h5>
@@ -371,10 +374,11 @@
 
           <figure class="card">
             <img
-              src="img/cacamba-basculante-implemento-rodoviario.jpg"
+              src="img/cacamba-basculante-implemento-rodoviario.jpeg"
               alt="Caminhão basculante com caçamba de carga aberta verde da Eco Master Equipamentos em uma rua da cidade."
               class="item-img"
-              loading="lazy"
+              width="364"
+              height="243"
             />
             <h4><span>Caçamba Basculante:</span></h4>
             <h5>
@@ -397,10 +401,11 @@
 
           <figure class="card">
             <img
-              src="img/sistema-poliguindaste-articulado-eco-master.jpg"
+              src="img/sistema-poliguindaste-articulado-eco-master.jpeg"
               alt="Caminhão poliguindaste da Eco Master Equipamentos transportando uma caçamba estacionária amarela em uma avenida."
               class="item-img"
-              loading="lazy"
+              width="364"
+              height="243"
             />
             <h4><span>Sistema Poliguindaste:</span></h4>
             <h5>
@@ -423,10 +428,11 @@
 
           <figure class="card">
             <img
-              src="img/equipamento-roll-on-roll-off-master-25t.jpg"
+              src="img/equipamento-roll-on-roll-off-master-25t.jpeg"
               alt="Caminhão truck equipado com o sistema roll-on roll-off Master 25T da Eco Master, mostrando o braço hidráulico e chassi reforçado."
               class="item-img"
-              loading="lazy"
+              width="364"
+              height="243"
             />
             <h4><span>Equipamento Master 25T:</span></h4>
             <h5>
@@ -460,10 +466,11 @@
 
           <figure class="card">
             <img
-              src="img/coletor-residuos-hospitalares-estanque-eco-master.jpg"
+              src="img/coletor-residuos-hospitalares-estanque-eco-master.jpeg"
               alt="Caminhão tanque coletor de resíduos hospitalares Eco Master, com reservatório cilíndrico branco e sistema de sucção."
               class="item-img"
-              loading="lazy"
+              width="364"
+              height="243"
             />
             <h4><span>Coletor Hospitalar Eco Master:</span></h4>
             <h5>
@@ -522,7 +529,7 @@
               <h3>Endereço:</h3>
               <h4>
                 Rua Lino Chede, 54 A - Bairro Ponte Alta<br />Extrema - MG |
-                CEP: 376424-92
+                CEP: 37642-492
               </h4>
             </div>
             <div class="info-item">
@@ -600,8 +607,10 @@
         <div class="footer-container">
           <div class="footer-col">
             <img
-              src="/img/logo-eco-master-equipamentos-extrema-mg.svg"
-              alt="Logo Eco Master Equipamentos - Fabricação de Implementos. Ícone de engrenagem azul com uma folha verde."
+              src="/img/logo-eco-master.svg"
+              alt="Logo Eco Master Equipamentos - Fabricação de Implementos."
+              width="210px"
+              height="56px"
             />
             <p class="text-large">
               Empresa especializada no desenvolvimento, fabricação e aplicação
@@ -623,7 +632,7 @@
             <h4>Localização e Contato</h4>
             <p class="adress">
               Rua Lino Chede, 54 A<br />Bairro Ponte Alta,<br />
-              Extrema - MG | CEP: 376424-92
+              Extrema - MG | CEP: 37642-492
             </p>
             <p>Telefone: (35) 99857-8107</p>
             <p>Email: comercial@ecomasterequipamentos.com.br</p>

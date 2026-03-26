@@ -1,114 +1,134 @@
-h1,
-h2 {
-  font-family: Montserrat;
-}
-h4,
-h5 {
-  text-align: start;
-}
-.section-title h2,
-span {
-  color: var(--metal-dark);
-}
 @font-face {
-  font-family: Montserrat;
-  src: url(../fonts/Montserrat-VariableFont_wght.woff2) format("woff2");
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.woff2);
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: Inter;
-  src: url(../fonts/Inter-VariableFont_opsz\,wght.woff2) format("woff2");
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_opsz_wght_1.woff);
   font-style: normal;
   font-display: swap;
 }
+
 :root {
+  /*Cores*/
   --primary-color: #0d1b2a;
-  --secundary-color: #79b933;
-  --tertiary-color: #4d7b1f;
+  --secundary-color: #79b933; /*btn*/
+  --tertiary-color: #4d7b1f; /*hover*/
+
+  /*Cores dp Texto*/
   --text-primary-color: #222222;
   --text-secundary-color: #ffffff;
   --text-main: #1b263b;
   --text-muted: #778da9;
-  --metal-dark: #00548b;
-  --metal-light: #e0e1dd;
+  --metal-dark: #00548b; /*Estruturas*/
+  --metal-light: #e0e1dd; /*Fundo de Sessões*/
+
+  /*Cor do Background*/
   --background-primary-color: #ffffff;
   --background-secundary-color: #f8f9fa;
   --background-tertiary-color: #dddddd;
+
+  /*Peso da Fonte*/
   --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
+
+  /*Tamanho da Fonte*/
   --h1-size: 36px;
   --h2-size: 32px;
   --h3-size: 30px;
   --h4-size: 28px;
-  --h5-size: 16px --body1-size: 18px;
+  --h5-size: 16px;
+  --body1-size: 18px;
   --body2-size: 22px;
   --body3-size: 24px;
   --subtitle: 14px;
 }
+
+/*CSS Reset*/
 body,
-button,
-fieldset,
-h1,
 img,
-input,
-legend,
+h1,
 p,
+fieldset,
+legend,
+input,
 select,
-textarea {
+textarea,
+button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 a:focus,
 button:focus {
   outline: 3px solid var(--accent-safety);
   outline-offset: 4px;
 }
+
 a:active,
-button:active,
-li:active {
+li:active,
+button:active {
   transform: scale(0.91);
 }
+
 .section-title h2 {
   text-align: center;
+  color: var(--metal-dark);
 }
-section.bottom-hero,
-section.hero {
+
+section.hero,
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
+
 h1 {
+  font-family: "Montserrat";
   font-size: var(--body3-size);
   color: var(--primary-color);
   font-weight: var(--text-weight);
 }
+
 h2 {
+  font-family: "Montserrat";
   font-size: var(--body2-size);
   color: var(--text-main);
   font-weight: var(--title-weight);
 }
-h3,
-h4 {
+
+h3 {
+  font-family: "Inter";
   font-size: var(--body1-size);
-}
-h3,
-h4,
-h5 {
-  font-family: Inter;
   color: var(--text-primary-color);
   font-weight: var(--text-weight);
 }
-h5 {
-  font-size: var(--subtitle);
+
+h4 {
+  font-family: "Inter";
+  font-size: var(--body1-size);
+  color: var(--text-primary-color);
+  font-weight: var(--text-weight);
+  text-align: start;
 }
+
+h5 {
+  font-family: "Inter";
+  font-size: var(--subtitle);
+  color: var(--text-primary-color);
+  font-weight: var(--text-weight);
+  text-align: start;
+}
+
 span {
   font-weight: var(--title-weight);
+  color: var(--metal-dark);
 }
+
 @media screen and (min-width: 768px) {
   h1 {
     font-size: var(--h1-size);
@@ -126,15 +146,18 @@ span {
     font-size: var(--h5-size);
   }
 }
+
 @media screen and (min-width: 1024px) {
   .section-title h2 {
     font-size: var(--h1-size);
   }
+
   .section-title h2:hover {
     color: var(--text-main);
     text-decoration: underline 3px var(--secundary-color);
     text-underline-offset: 8px;
   }
+
   h2 {
     font-size: var(--h2-size);
   }

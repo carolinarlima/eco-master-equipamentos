@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Aponta o caminho do mapa do site para o Google e outros buscadores
+Sitemap: https://www.ecomasterequipamentos.com.br/sitemap.xml
